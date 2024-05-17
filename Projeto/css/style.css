@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+
+}
+
+body {    
+    background-image: url(../img/bar.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: Arial; sans-serif;
+    margin-top: 20px;
+    /*line-height: 1.6;*/
+    background-color: #e9e1e1;
+    color: #0a0a0a;
+}
+
+.container {       
+    /*max-width: 960px;*/  
+    margin: center;
+    padding: 20px;   
+}
+.container h3,.p{
+    margin-bottom: 115px;
+    padding-left: 9px;
+}
+.burgers{
+    background-color: yellow;
+    background-image: url(../img/burger.jpeg);
+    background-position: 13px;
+    background-repeat: no-repeat;
+    padding: 10px;
+    padding-left: 9px;
+    padding-top: 9px;
+    margin-bottom: 20px;   
+}
+.pizzas{
+    background-color: yellow;
+    background-image: url(../img/pizza2.jpg);
+    background-position: 13px;    
+    background-repeat: no-repeat;
+    padding: 10px;
+    padding-left: 9px;
+    padding-top: 9px;
+    margin-bottom: 20px; 
+}
+.bebidas{
+    background-color: yellow;
+    background-image: url(../img/bebidas.jpg);
+    background-position: 13px;    
+    background-repeat: no-repeat;
+    padding: 10px;
+    padding-left: 9px;
+    padding-top: 9px;
+    margin-bottom: 20px; 
+}
+input{
+    background-image: url(../img/misto.jpg);
+    background-repeat: no-repeat;
+    background-position: 13px;
+}
+
+
+header {
+    width: 100%;        
+    background: #333;
+    color: white ;
+    padding: 20px;
+}
+
+
+header h1 {    
+    font-family: tahoma;
+    color: yellow;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {    
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {  
+    color: rgb(7, 241, 18);
+    text-decoration: none;
+}
+
+section{        
+    padding: 40px 0;
+   
+}
+
+section h2 {
+    color: #fff;
+    background-color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  
+}
+
+.menu-item{           
+    background-color: yellow;      
+    margin-bottom: 20px;
+    padding-left: 9px;
+    padding-top: 9px;
+    margin: center;
+      
+} 
+
+
+.input{ 
+    
+    background-position: 20px;
+    background: yellow;
+    padding: 20px;
+    padding-left: 9px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 60px ;
+}
